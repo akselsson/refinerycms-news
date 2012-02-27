@@ -34,7 +34,7 @@ sv:
           source: Källa
         archive:
           news_it_iem_archive_for: 'Arkiv för %{date}'
-          no_news_item_articles_posted: 'Dert finns inga nyheter för %{date}.'
+          no_news_item_articles_posted: 'Det finns inga nyheter för %{date}.'
   activerecord:
     attributes:
       'refinery/news/item':
