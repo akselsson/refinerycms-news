@@ -33,8 +33,8 @@ sv:
           no_items_yet: Det finns inga nyheter än.
           source: Källa
         archive:
-          news_item_archive_for: 'Arkiv för %{date}'
-          no_news_articles_posted: 'Dert finns inga nyheter för %{date}.'
+          news_it_iem_archive_for: 'Arkiv för %{date}'
+          no_news_item_articles_posted: 'Dert finns inga nyheter för %{date}.'
   activerecord:
     attributes:
       'refinery/news/item':
