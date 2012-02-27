@@ -1,0 +1,47 @@
+sv:
+  refinery:
+    plugins:
+      refinerycms_news:
+        title: Nyheter
+        description: Nyhetssektion
+    news:
+      admin:
+        items:
+          item:
+            view_live_html: "Se nyheten på webbplatsen<br/><em>(öppnas i nytt fönster)</em>"
+            edit: "Redigera nyheten"
+            delete: "Radera nyheten"
+            published: Publicerade
+          index:
+            create: "Lägg till nyhet"
+            item: Nyheter
+            no_items_yet: 'Det finns inga nyheter än. Tryck "lägg till nyhet" för att lägga till en nyhet.'
+      shared:
+        items: 
+          created_at: 'Skapad %{when}'
+        archives: Arkiv
+      items:
+        show:
+          back_to_index: "Tillbaka till alla nyheter"
+          published: Publicerad
+          source: Källa
+        recent_posts:
+          recent_posts: Aktuellt
+        index:
+          published: Publicerad
+          read_more: Läs mer
+          no_items_yet: Det finns inga nyheter än.
+          source: Källa
+        archive:
+          news_item_archive_for: 'Arkiv för %{date}'
+          no_news_articles_posted: 'Dert finns inga nyheter för %{date}.'
+  activerecord:
+    attributes:
+      'refinery/news/item':
+        title: Titel
+        body: Brödtext
+        publish_date: Publiceringsdatum
+        expiration_date: Utgångsdatum
+        source: Källa
+    models:
+      'refinery/news/item': Nyhet
